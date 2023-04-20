@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Test by Alexandru Serban</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <ul class="navbar">
+            <li class="navbar-element"><a class="navbar-link" href="part1.html">Part 1</a></li>
+            <li class="navbar-element"><a class="navbar-link active" href="part2.html">Part 2</a></li>
+        </ul>
+    </div>
+    <div class="flex-container flex-direction">
+        <p class="helper-text">Enter only numerical characters:</p>
+        <input type="number" id="column-title-input" class="auto-uppercase input" >
+        <button type="button" class="button" id="go-button">Go!</button>
+        <p id="result" class="helper-text" style="display: none;">Result: <span id="result-text"></span></p>
+    </div>
+    <div class="flex-container flex-direction">
+        <h2>Common examples:</h2>
+        <div id="common-examples">
+
+        </div>
+    </div>
+    <script type='text/javascript' src='helperScripts.js'></script>
+    <script type='text/javascript' src='part2.js'></script>
+</body>
+</html>
